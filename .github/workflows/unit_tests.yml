@@ -125,21 +125,3 @@ jobs:
           python3 -m pip install pytest
           cd tests
           python3 -m pytest
-
-      - name: Run slow tests with coverage
-        if: github.ref == 'refs/heads/main'
-        working-directory: .
-        run: |
-          python3 -m pip install pytest-cov
-          cd tests
-          pytest --cov=crumbs --cov-report=xml --cov-branch -s -m slow
-
-      - name: Upload coverage to Codecov
-        if: success() && github.ref == 'refs/heads/main' && matrix.os == 'ubuntu-22.04'
-        uses: codecov/codecov-action@v2
-        with:
-          working-directory: crumbs
-          fail_ci_if_error: true
-          flags: tests
-          name: codecov-umbrella
-          verbose: true
