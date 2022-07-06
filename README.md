@@ -10,3 +10,6 @@ Branches description:
 - `main`: the bug as initially found on my own repo.
 - `fix`: a bug-free branch that uses only 2 dependencies in the `requirements.txt` (but I need more deps in real life)
 - `break_again`: a branch that reproduces the bug after restoringg and cleaning the `requirements.txt` a little bit.
+- `cutting_deps`: a branch were I tried to add one dep at a time until it breaks again: pyqt5==5.15.7 breaks the working behavior of mayavi==4.7.4 + 
+PyVirtualDisplay==3.0
+
