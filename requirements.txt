@@ -1,8 +1,8 @@
 # Avoids "cannot import name 'define' from 'attr' "
-attrs==21.4.0
+# attrs==21.4.0
 
 # Array computing
-#numpy==1.23.0
+ numpy==1.23.0
 
 # Composable command line interface toolkit
 #click==8.1.3
