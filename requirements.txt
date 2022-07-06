@@ -7,42 +7,6 @@ numpy==1.23.0
 # Composable command line interface toolkit
 click==8.1.3
 
-# Parallel computing libary
-dask==2022.6.1
-
-# Lightweight pipelining with Python functions
-joblib==1.1.0
-
-# Python client for GBIF API
-pygbif==0.6.1
-
-# Sequence simulation along phylogenies according to continuous-time Markov models
-Pyvolve==1.0.3
-
-# Read and write GIS
-rasterio==1.3b2
-
-# Read and write spatial data
-Fiona==1.8.21
-
-# Geographic dataframes
-geopandas==0.11.0
-
-# machine learning
-scikit-learn==1.1.1
-
-# Light Gradient Boosting Machine
-lightgbm==3.3.2
-
-# regularizing gradient boosting
-xgboost==1.6.1
-
-# Utilities for applying scikit-learn to spatial datasets
-pyimpute==0.3
-
-# smart progress meter
-tqdm==4.64.0
-
 # Python bindings for the Qt platform (mayavi dep.)
 pyqt5==5.15.7
 
